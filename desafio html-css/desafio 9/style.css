@@ -1,0 +1,49 @@
+.curso1{ 
+    width: 210px;
+    border: 6px solid chartreuse;
+    left: 450px;
+    position: absolute;
+}
+.cursohtml{
+    width: 210px;
+    border: 6px solid rgb(3, 166, 172);
+    left: 680px;
+    position: absolute;
+}
+.cursojs{
+    width: 210px;
+    border: 6px solid rgb(223, 200, 0);
+    left: 680px;
+    position: absolute;
+    top: 290px;
+
+}
+.cursopython{
+    width: 210px;
+    top: 291px;
+    border: 6px solid rgb(248, 141, 2);
+    position: absolute;
+    left: 450px;
+}
+body{
+    background-color: rgb(27, 26, 27);
+}
+h1{
+    color: white;
+    text-align: center;
+    font-family: 'VT323', monospace;
+    font-size: 64px;
+}
+.assinado{
+    position: absolute;
+    top: 500px ;
+    left: 298px;
+    font-size: 60px;
+    
+}
+a{
+    text-decoration: none;
+    color: rgb(19, 236, 182);
+
+}
+

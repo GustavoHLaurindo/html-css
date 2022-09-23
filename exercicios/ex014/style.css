@@ -1,0 +1,17 @@
+ body{
+    background-color: rgb(86, 87, 86);
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+h1{
+    color: white;
+    background-color: rgb(255, 115, 0);
+    
+}
+h2{
+    color: tomato;
+}
+p{
+   color: white;
+            
+}

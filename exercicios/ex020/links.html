@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Roboto&display=swap');
+        main{
+            background-color: lightgray;
+            border-radius: 20px;
+            margin: auto;
+            width: 700px;
+            height: 500px;
+            margin-top: 25px;
+            border: 6px solid black;
+            box-shadow: 4px 5px 20px rgba(0, 0, 0, 0.568);
+
+        }
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: gray;
+        }
+        h1#principal{
+            text-align: center;
+            font-family: 'indie flower';
+            font-size: 40px;
+            color: rgb(0, 110, 255);
+        }
+        ul{
+            margin-left: 20px ;
+        }
+        li{
+            margin: 6px;
+            display: inline-block;
+            
+        
+        }
+        a{
+            color: rgb(92, 91, 91);
+            text-decoration: none;
+            font-weight: bold;
+        }
+        a:visited{
+            color: rgb(5, 91, 202);
+        }
+        a:hover{
+            text-decoration: underline;
+            color: black;
+        }
+        a:active{
+            color: rgb(255, 115, 0);
+        }
+        .importante::before{
+            content: '❃ '; font-weight: bold;
+            text-decoration: none;
+            color: rgb(255, 81, 0);
+        }
+        .importante::after{
+            content: ' ❃';
+            font-weight: bold;
+            text-decoration: none;
+            color: rgb(255, 81, 0);
+        }
+        .importante{
+            padding:3px ;
+            background-color: greenyellow;
+            border-radius: 10px;
+        }
+        img{
+            width: 200px;
+            height: 200px;
+            margin-left: 250px;
+            margin-top: 50px;
+        }
+    </style>
+    <title>links</title>
+</head>
+<body>
+    <main>
+        <h1 id="principal">personalizando links</h1>
+        <ul>
+            <li><a href="https://gustavoguanabara.github.io" target="_blank" rel="external">repositório do github</a></li>
+            <li><a href="https://youtube.com/cursoemvideo/" target="_blank" class="importante">Canal do youtube</a></li>
+            <li><a href="https://www.cursoemvideo.com/curso/curso-html5-e-css3-modulo-2-de-5-40-horas/aulas/modulo-2-2/modulos/capitulo-15-aula-04-pseudo-elementos-em-css/" target="_blank">site curso em video</a></li>
+        </ul>
+        <img src="https://cdn.pixabay.com/photo/2020/12/27/20/25/smile-5865209_960_720.png" alt="emoji">
+    </main>
+</body>
+</html>

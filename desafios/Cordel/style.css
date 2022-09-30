@@ -42,13 +42,15 @@ section{
     padding-bottom: 9%;
     line-height: 2em;
     padding-left: 30px;
-    font-size: 3.3vw;
+    font-size: 3.4vw;
     font-family: var(--fonte-padrao);
 }
+
 section.normal{
     background-color: white;
     color: black ;
 }
+
 section.imagem{
     background-color: rgb(70, 70, 70);
     color: rgb(255, 255, 255);
@@ -56,9 +58,15 @@ section.imagem{
     background-position: right center;
     background-size: cover;
     background-attachment: fixed;
-    
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.555) inset;
+    text-shadow: 2px 2px 10px black;
 }
-section#segundo{
+
+section > p{
+    padding-bottom: 2em;   
+}
+
+section#img2{
     background-image: url(imagens/pexels-stein-egil-liland-1933317.jpg);
     background-position: right center;
     background-size: cover;
@@ -67,8 +75,9 @@ section#segundo{
 }
 
 section.imagem > p{
-    background-color: rgba(0, 0, 0, 0.375);
+    background-color: rgba(0, 0, 0, 0.502);
     padding: 22px;
+    border-radius: 15px;
     display: inline-block;
 }
 footer{

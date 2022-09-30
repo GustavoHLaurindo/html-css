@@ -38,8 +38,8 @@ a:hover{
     text-decoration: underline;
 }
 section{
-    padding-top: 10%;
-    padding-bottom: 10%;
+    padding-top: 9%;
+    padding-bottom: 9%;
     line-height: 2em;
     padding-left: 30px;
     font-size: 3.3vw;
@@ -55,12 +55,14 @@ section.imagem{
     background-image: url(imagens/pexels-pixabay-101539.jpg);
     background-position: right center;
     background-size: cover;
+    background-attachment: fixed;
     
 }
 section#segundo{
     background-image: url(imagens/pexels-stein-egil-liland-1933317.jpg);
     background-position: right center;
     background-size: cover;
+    background-attachment: fixed;
 
 }
 

@@ -1,0 +1,27 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+td,th{
+    text-transform: capitalize;
+    border: 2px solid black;
+    padding: 8px;
+    
+}
+td{
+    text-align: center;
+}
+thead{
+    background-color: gray;
+    color: white;
+}
+tfoot{
+    background-color: gray;
+    color: white;
+}
+.num{
+    text-align: right;
+}
+table{
+    width: 400px;
+    border-collapse: collapse;
+}

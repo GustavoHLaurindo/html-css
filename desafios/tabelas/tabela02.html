@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        caption{
+            background-color: rgb(46, 46, 46);
+            font-size: 1.3em;
+            color: white;
+            font-weight: bold;
+            text-transform: capitalize;
+            border-radius: 15px 15px 0px 0px;
+            padding: 10px;
+        }
+        table{
+            width:500px;
+            border-collapse: collapse;
+        }
+        th,td{
+            border: 1px solid black;
+            padding: 10px;
+            text-transform: capitalize;
+        }
+        th{
+            color: white;
+            background-color: gray;
+        }
+        .me{
+            text-align: left;
+            
+        }
+        .num{
+            background-color: gray;
+            color: white;
+            font-weight: bold;
+            text-align: center;
+        }
+        .num2{
+            text-align: center;
+        }
+       
+        
+    </style>
+    <title>tabela</title>
+</head>
+<body>
+    <table>
+        <caption>notas escolares</caption>
+        <thead>
+            <tr>
+                <th colspan="1" rowspan="2">Areas</th>
+                <th colspan="1" rowspan="2">diciplinas</th>
+                <th colspan="2" rowspan="1" >notas</th>
+                <th colspan="2" rowspan="2" >média</th>
+            </tr>
+            <tr>
+                <th>nota 1</th>
+                <th>nota 2</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th rowspan="4">exatas</th>
+                <td>matematica</td>
+                <td class="num2">0.0</td>
+                <td class="num2">0.0</td>
+                <td class="num2">0.0</td>
+            </tr>
+            <tr>
+                <td>fisica</td>
+                <td class="num2">0.0</td>
+                <td class="num2">0.0</td>
+                <td class="num2">0.0</td>
+
+            </tr>
+            <tr>
+                <td>quimica</td>
+                <td class="num2">0.0</td>
+                <td class="num2">0.0</td>
+                <td class="num2">0.0</td>
+            </tr>
+            <tr>
+                <td>biologia</td>
+                <td class="num2">0.0</td>
+                <td class="num2">0.0</td>
+                <td class="num2">0.0</td>
+            </tr>
+            <tr>
+                <th class="me" colspan="4">média de exatas</th>
+                <td class="num">0.0</td>
+            </tr>
+            <tr>
+                <th rowspan="2">Humanas</th>
+                <td>história</td>
+                <td class="num2">0.0</td>
+                <td class="num2">0.0</td>
+                <td class="num2">0.0</td>
+
+            </tr>
+            <tr>
+                <td>geografia</td>
+                <td class="num2">0.0</td>
+                <td class="num2">0.0</td>
+                <td class="num2">0.0</td>
+            </tr>
+            <tr>
+                <th colspan="4" class="me">média de humanas</th>
+                <td class="num">0.0</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <th colspan="5"> criado por Gustavo Henrique</th>
+        </tfoot>
+    </table>
+    
+</body>
+</html>

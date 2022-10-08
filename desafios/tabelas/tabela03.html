@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        table{
+            border-collapse: collapse;
+            width: 650px;
+        }
+        td,th{
+            border: 1px solid black;
+            text-transform: capitalize;
+            padding: 10px;
+            text-align: center;
+        }
+        th{
+            background-color: gray;
+            color: white;
+        }
+        th.dia{
+            width: 50px;
+        }
+        th.hora{
+            width: 70px;
+        }
+        th#idade{
+            width: 60px;
+        }
+        tbody tr:nth-child(odd){
+            background-color: lightgray;
+        }
+
+        th.nome{
+            width: 70px;
+        }
+        
+        
+    </style>
+    <title>tabela</title>
+</head>
+<body>
+    <table>
+        <thead>
+            <tr>
+                <th colspan="1" rowspan="2">generos</th>
+                <th colspan="1" rowspan="2" class="nome">nome</th>
+                <th colspan="1" rowspan="2" id="idade">idade</th>
+                <th colspan="1" rowspan="2">doença</th>
+                <th colspan="1" rowspan="2">alergias</th>
+                <th colspan="2" rowspan="1">datas</th>
+            </tr>
+            <tr>
+                <th class="dia">dia</th>
+                <th class="hora">hora</th>
+
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th rowspan="5">masculino</th>
+                <td>João</td>
+                <td>24 anos</td>
+                <td>gripe</td>
+                <td>dipirona e amoxilina</td>
+                <td>05</td>
+                <td>14:43h</td>
+            </tr>
+            <tr>
+                <td>pedro</td>
+                <td>18 anos</td>
+                <td>pé torciso</td>
+                <td>anestesia</td>
+                <td>05</td>
+                <td>16:00h</td>
+            </tr>
+            <tr>
+                <td>Gustavo</td>
+                <td>16 anos</td>
+                <td>covid</td>
+                <td>não tem</td>
+                <td>17</td>
+                <td>13:30h</td>
+            </tr>
+            <tr>
+                <td>marcos</td>
+                <td>20 anos</td>
+                <td>infarto</td>
+                <td>não tem</td>
+                <td>22</td>
+                <td>7:23h</td>
+            </tr>
+            <tr id="fim">
+                <td>sandro</td>
+                <td>30 anos</td>
+                <td>chagas</td>
+                <td>bezetaciu</td>
+                <td>30</td>
+                <td>20:00h</td>
+            </tr>
+            <tr>
+                <th rowspan="6">feminino</th>
+                <td>maria</td>
+                <td>19 anos</td>
+                <td>pneumonia</td>
+                <td>não tem</td>
+                <td>03</td>
+                <td>15:45</td>
+            </tr>
+            <tr>
+                <td>suelen</td>
+                <td>17 anos</td>
+                <td>rinite</td>
+                <td>loratadina</td>
+                <td>06</td>
+                <td>17:25h</td>
+            </tr>
+            <tr>
+                <td>julia</td>
+                <td>15 anos</td>
+                <td>asma</td>
+                <td>lorazec</td>
+                <td>08</td>
+                <td>19:50h</td>
+            </tr>
+            <tr>
+                <td>thais</td>
+                <td>22 anos</td>
+                <td>dor de cabeça</td>
+                <td>não tem</td>
+                <td>10</td>
+                <td>20:00h</td>
+            </tr>
+        </tbody>
+    </table>
+    
+</body>
+</html>

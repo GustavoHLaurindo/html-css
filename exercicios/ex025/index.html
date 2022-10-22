@@ -5,19 +5,18 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <style>
-        *{
-            font-family: Arial, Helvetica, sans-serif;
+        body{
+            font-family: Arial Helvetica, sans-serif;
         }
     </style>
     <title>Document</title>
 </head>
 <body>
-    <h1>meu primeiro formulario</h1>
-    <form autocomplete="off">
-        <p><label for="inome">Nome:</label> <input type="text" name="nome" id="inome"></p>
-        <p><label for="isobrenome">Sobrenome:</label> <input type="text" name="sobrenome" id="isobrenome"></p>
+    <h1>criando primeiro formulario</h1>
+    <form action="cadastro.php" autocomplete="off" method="post">
+        <p><label for="nome">Nome: </label><input type="text" name="nome" id="nome"></p>
+        <p><label for="sobrenome">Sobrenome:</label> <input type="text" name="sobrenome" id="sobrenome"></p>
         <p><input type="submit" value="Enviar"></p>
     </form>
-      
 </body>
 </html>

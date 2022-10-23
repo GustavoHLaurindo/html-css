@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+    </style>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formulario</title>
+</head>
+<body>
+    <form action="#">
+        <fieldset>
+            <legend>Sexo</legend>
+            <input type="radio" name="sexo" id="masculino"><label for="masculino">Maculino</label>
+            <br>
+            <input type="radio" name="sexo" id="femea" checked><label for="femea">femea</label>
+            <input type="radio" name="sexo" id="nbinario">
+        </fieldset>
+
+        <fieldset>
+            <legend>Esportes favoritos</legend>
+            <input type="checkbox" name="esfut" id="esfut"> <label for="esfut">Futebol</label>
+            <br>
+            <input type="checkbox" name="esbas" id="esbas"> <label for="esbas">basquete</label>
+            <br>
+            <input type="checkbox" name="esvo" id="esvo"><label for="esvo"> Volei</label>
+        </fieldset>
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="limpar">
+        </p>
+    </form>
+</body>
+</html>

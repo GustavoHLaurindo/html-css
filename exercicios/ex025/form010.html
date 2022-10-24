@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        output{
+            background-color: chartreuse;
+            padding: 4px;
+            border-radius: 7px;
+            display: inline-block;
+            margin-left: 10px;
+        }
+    </style>
+    <title>Document</title>
+</head>
+<body>
+    <form action="cadastro.php">
+        <fieldset>
+            <legend>Sua idade</legend>
+            <p>
+                <label for="ano"> Em que ano vc nasceu ?</label>
+                <input type="number" name="ano" id="ano" min="1980" max="2010" >
+            </p>
+            <p>
+                <label for="idade">Sua idade é de: </label>
+                <output id="idade" name="idade"></output>
+                <label for="idade">Anos</label>
+            </p>
+            <p>
+                <input type="button" value="Enviar" onclick="calc()">
+            </p>
+        </fieldset>
+    </form>
+    <script>
+        function calc(){
+            let atual = new Date().getFullYear()
+            idade.innerHTML = Number(atual) - Number(ano.value)
+        }
+    </script>
+</body>
+</html>

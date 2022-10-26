@@ -1,0 +1,16 @@
+@charset "utf-8";
+*{
+    margin: 10px;
+    padding: 10px;
+}
+body{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.5em;
+    line-height: 1.5em;
+}
+menu{
+    display: none;
+}
+article::after{
+    content: "Data: 24/10/2022 por Gustavo";
+}

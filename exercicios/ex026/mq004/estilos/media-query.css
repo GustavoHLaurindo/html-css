@@ -1,0 +1,36 @@
+/*todas as demais midias*/
+@media screen and (min-width: 768px) and (max-width:992px){
+    body{
+        background-image: url(../imagens/back-tablet.jpg);
+    }
+    img#celular{display: none;}
+    img#tv{display: none;}
+    img#pc{display: none;}
+    img#print{display: none;}
+    img#tablet{display: block;}
+}
+@media screen and (min-width: 992px) and (max-width:1325px){
+    body{
+        background-image: url(../imagens/back-pc.jpg);
+    }
+    img#celular{display: none;}
+    img#tv{display: none;}
+    img#pc{display: block;}
+    img#print{display: none;}
+    img#tablet{display: none;}
+    
+}
+@media screen and (min-width: 1326px){
+    body{
+        background-image: url(../imagens/back-tv.jpg);
+    }
+    main{
+        width: 500px;
+        
+    }
+    img#celular{display: none;}
+    img#tv{display: block;}
+    img#pc{display: none;}
+    img#print{display: none;}
+    img#tablet{display: none;}
+}

@@ -6,18 +6,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" href="estilos/style.css">
+    <link rel="stylesheet" href="estilos/media-queries.css">
     <title>Nature</title>
 </head>
-<body>
+<body onresize="mudouTamanho()">
     <header>
         <h1>Natureza &#x1F341;</h1>
         <span id="burguer" class="material-icons" onclick="clickMenu()">menu</span>
         <menu id="menu">
             <ul>
-                <li><a href="#">opção 1</a></li>
-                <li><a href="#">opção 2</a></li>
-                <li><a href="#">opção 3</a></li>
-                <li><a href="#">opção 4</a></li>
+                <li><a href="#">Fale conosco</a></li>
+                <li><a href="#">Comunidade</a></li>
+                <li><a href="#">Sobre</a></li>
+                
             </ul>
         </menu>
     </header>
@@ -42,6 +43,14 @@
                 menu.style.display = "block"
             }
             
+        }
+        function mudouTamanho(){
+            if (window.innerWidth >= 768){
+                menu.style.display = 'block'
+            }
+            else{
+                menu.style.display = 'none'
+            }
         }
     </script>
 </body>

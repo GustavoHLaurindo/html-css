@@ -1,0 +1,25 @@
+@media screen and (min-width:768px){
+    span#burguer{
+        display: none;
+    }
+    menu{
+        display: block;
+        background-color: rgba(71, 71, 71, 0.561);
+        padding: 5px;
+    }
+    main{
+        width: 720px;
+    }
+    menu > ul {
+        display: flex;
+        gap: 14px;
+        justify-content: center;
+    }
+    menu > ul > li > a{
+        border-top: none ;
+        background-color: rgba(40, 143, 0, 0.959);
+    }
+    menu > ul > li > a:hover{
+        background-color: rgba(54, 175, 6, 0.959);
+    }
+}

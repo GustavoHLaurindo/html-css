@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap');
+*{
+    padding: 0px;
+    margin: 0px;
+    
+}
+body{
+    background-color: blueviolet;
+    font-family: 'Patrick Hand', cursive;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+main.conteiner{
+    background-color: white;
+    height: 40vh;
+    width: 250px;
+    border-radius: 10px;
+    padding: 30px;
+}
+main.conteiner h1{
+    font-weight: bolder;
+    font-size: 25px;
+    padding-bottom: 20px;
+    letter-spacing: 2px;
+    position: relative;
+}
+main.conteiner h1::before{
+    content: "";
+    position: absolute;
+    height: 3px;
+    border-radius: 8px;
+    width: 20px;
+    left: -2px;
+    bottom: 22px;
+    box-shadow: 2px 2px 10px rgb(59, 0, 59);
+    background-color: blueviolet;
+}
+.input-field{
+    position: relative;
+    
+    
+}
+.input-field input{
+    outline: none;
+    border: none;
+    font-size: 0.9rem;
+    color:rgba(0, 0, 0, 0.91)
+}
+.input-field input::placeholder{
+    color: rgba(0, 0, 0, 0.548);
+}
+form input[type="submit"]{
+    background-image: linear-gradient(30deg ,rgb(219, 0, 219), rgb(104, 25, 232));
+    padding: 10px;
+    color: white;
+    border: none;
+    width: 100%;
+    height: 40px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-weight: 500;
+    transition: all 0.3s ease;
+}
+form input[type="submit"]:hover{
+    letter-spacing: 0.5px;
+    font-weight: 600;
+    background-image: linear-gradient(30deg ,rgb(104, 25, 232), rgb(219, 0, 219));
+    box-shadow: 2px 2px 10px rgb(104, 25, 232);
+}
+form{
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+}
+.linha{
+    background-color: rgba(104, 103, 105, 0.477);
+    height: 2px;
+    width: 100%;
+    border-radius: 10px;
+}
+
+.footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.social-field{
+    margin-top: 10px;
+    display: flex;
+    font-size: 1rem;
+    flex-direction: column;
+    align-items: center; 
+    cursor: pointer;
+    width: 100%;
+}
+.social-field a i{
+    width: 15px;
+    margin-right: 10px;
+}
+.social-field a{
+    color: white;
+    text-decoration: none;
+}
+.social-field .botao-twitter{
+    padding: 10px;
+    background-color: rgb(6, 161, 245);
+    border-radius: 10px;
+    margin-bottom: 5px;
+    width: 100%;
+
+}
+.social-field .botao-facebook{
+    padding: 10px;
+    background-color: rgb(4, 66, 166);
+    border-radius: 10px;
+    width: 100%;
+}

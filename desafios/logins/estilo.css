@@ -1,8 +1,11 @@
 @charset "utf-8";
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
 *{
     margin: 0px;
     padding:0px;
     color: white;
+    box-sizing: border-box;
     
 }
 body{
@@ -16,9 +19,12 @@ body{
 header{
     display: flex;
     justify-content: space-between;
-    padding: 20px;
+    padding: 7px;
+    font-family: poppins, sans-serif;
+    font-weight: 400;
     align-items: center;
 }
+
 ul{
     display: flex;
     align-items: center;
@@ -35,7 +41,7 @@ li span.conta{
     padding-right: 20px;
     padding-top: 10px;
     padding-bottom: 10px;
-    width: 150px;
+    width: 220px;
 }
 li a{
     text-align: center;
@@ -50,9 +56,10 @@ h1#diferente{
 }
 main{
     display: flex;
-    margin-top: 50px;
     justify-content: center;
+    width: 100vw;
     align-items: center;
+    transition: all 0.5s ease;
     
    
 }
@@ -95,15 +102,19 @@ h2#destaque{
     color: rgb(145, 3, 206);
     font-weight: bolder;
     font-size: 60px;
+    font-family: poppins, sans-serif;
+    font-weight: 700;
 
 }
 p{
     width: 470px;
     margin-top: 30px;
-    text-align: justify;
+    
+    font-size: 20px;
     margin-bottom: 30px;
 }
 
 .imagem img{
     width: 600px;
+    max-width: 100%;
 }
